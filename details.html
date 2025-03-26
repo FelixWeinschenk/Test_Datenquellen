@@ -35,7 +35,7 @@
             <tr>
                 <th>Name</th>
                 <th>Beschreibung</th>
-                <th>Quelle</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody id="data-table">
@@ -57,7 +57,7 @@
                     
                     filteredData.forEach(row => {
                         let tr = document.createElement("tr");
-                        tr.innerHTML = `<td>${row.Name}</td><td>${row.Beschreibung}</td><td><a href="${row.Quelle}" target="_blank">Link</a></td>`;
+                        tr.innerHTML = `<td>${row.Name}</td><td>${row.Beschreibung}</td><td><a href="${row.Link}" target="_blank">Link</a></td>`;
                         tableBody.appendChild(tr);
                     });
                 }
