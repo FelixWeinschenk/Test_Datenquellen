@@ -51,6 +51,7 @@
             Papa.parse("data.csv", {
                 download: true,
                 header: true,
+                delimiter: ";",
                 complete: function (result) {
                     const filteredData = result.data.filter(row => row.sphere === sphere);
                     const tableBody = document.getElementById("data-table");
