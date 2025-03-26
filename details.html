@@ -52,7 +52,7 @@
                 download: true,
                 header: true,
                 complete: function (result) {
-                    const filteredData = result.data.filter(row => row.Sphären === sphere);
+                    const filteredData = result.data.filter(row => row.sphere === sphere);
                     const tableBody = document.getElementById("data-table");
                     
                     filteredData.forEach(row => {
