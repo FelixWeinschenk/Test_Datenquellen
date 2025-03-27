@@ -49,11 +49,11 @@
             document.getElementById("title").innerText = sphere;
 
             Papa.parse("data.csv", {
-                console.log("CSV wird geladen...");
                 download: true,
                 header: true,
                 delimiter: ";",
                 complete: function (result) {
+                    console.log("CSV-Daten:", result.data);
                     const filteredData = result.data.filter(row => row.sphere?.trim() === sphere);
                     const tableBody = document.getElementById("data-table");
                     
