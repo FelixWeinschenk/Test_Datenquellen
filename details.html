@@ -53,7 +53,7 @@
                 header: true,
                 delimiter: ";",
                 complete: function (result) {
-                    const filteredData = result.data.filter(row => row.sphere === sphere);
+                    const filteredData = result.data.filter(row => row.sphere?.trim() === sphere);
                     const tableBody = document.getElementById("data-table");
                     
                     filteredData.forEach(row => {
