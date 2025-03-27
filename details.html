@@ -49,6 +49,7 @@
             document.getElementById("title").innerText = sphere;
 
             Papa.parse("data.csv", {
+                console.log("CSV wird geladen...");
                 download: true,
                 header: true,
                 delimiter: ";",
