@@ -62,6 +62,22 @@
                         tr.innerHTML = `<td>${row.Name}</td><td>${row.Beschreibung}</td><td><a href="${row.Link}" target="_blank">Link</a></td>`;
                         tableBody.appendChild(tr);
                     });
+                    function fixEncoding(text) {
+                        return text
+                        .replace(/Ã¤/g, "ä")
+                        .replace(/Ã¶/g, "ö")
+                        .replace(/Ã¼/g, "ü")
+                        .replace(/ÃÄ/g, "Ä")
+                        .replace(/Ã–/g, "Ö")
+                        .replace(/Ãœ/g, "Ü")
+                        .replace(/ÃŸ/g, "ß");
+                    }
+
+// Wende die Funktion auf alle Tabelleninhalte an
+document.querySelectorAll("td").forEach(td => {
+    td.innerHTML = fixEncoding(td.innerHTML);
+});
+
                 }
             });
         });
