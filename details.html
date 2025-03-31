@@ -61,7 +61,7 @@
 
                     filteredData.forEach(row => {
                         let tr = document.createElement("tr");
-                        tr.innerHTML = `<td>${row.Name}</td><td>${row.Beschreibung}</td><td><a href="${row.Link}" target="_blank">Link</a></td>`;
+                        tr.innerHTML = `<td>${row.Herausgeber}</td><td>${row.Kurzbeschreibung}</td><td><a href="${row.Link}" target="_blank">Link</a></td>`;
                         tableBody.appendChild(tr);
                     });
                     function fixEncoding(text) {
