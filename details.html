@@ -57,6 +57,8 @@
                     const filteredData = result.data.filter(row => row.Filter?.trim() === Filter);
                     const tableBody = document.getElementById("data-table");
                     
+                    console.log("Gefilterte Daten:", filteredData);
+
                     filteredData.forEach(row => {
                         let tr = document.createElement("tr");
                         tr.innerHTML = `<td>${row.Name}</td><td>${row.Beschreibung}</td><td><a href="${row.Link}" target="_blank">Link</a></td>`;
