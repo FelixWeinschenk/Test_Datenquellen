@@ -77,6 +77,22 @@
             padding: 5px 10px;
             border-radius: 0; 
         }
+        .impressum-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        .impressum-link a {
+            color: white;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .impressum-link a:hover {
+            text-decoration: underline;
+        }
         .blue { background-color: #357abd; } 
         .light-blue { background-color: #5faee3; } 
         .red { background-color: #b22222; } 
@@ -126,11 +142,14 @@
             <div class="tile gray" onclick="loadData('Software')">Software</div>
         </div>
 
-
+        <!-- Fußzeile -->
         <div class="footer">
             Eine Zusammentragung der Arbeitsgruppe Physische Geographie und GIS (Prof. Volker Hochschild) des Geographischen Instituts der Eberhard Karls Universität Tübingen, Felix Weinschenk.
-            <br>
-            <a href="impressum.html" style="color: white; text-decoration: underline;">Impressum</a>
+        </div>
+
+        <!-- Impressum-Link unten rechts -->
+         <div class="impressum-link">
+            <a href="impressum.html">Impressum</a>
         </div>
     </div>
 
