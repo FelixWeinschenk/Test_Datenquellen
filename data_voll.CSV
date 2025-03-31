@@ -1,4 +1,4 @@
-Name;Link;Beschreibung;Region;Schlagwörter;;;sphere;;
+Name;Link;Beschreibung;Region;X1;X2;X3;S1;S2;S3
 LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de ;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Physisch-Geographisch;;;Lithosphäre;Pedosphäre;
 LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml ;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Physisch-Geographisch;Umweltdaten;;Hydropshäre;Biosphäre;Atmosphäre
 LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Physisch-Geographisch;Administrativ;Digitales Höhenmodell;Reliefssphäre;;
