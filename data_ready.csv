@@ -1,39 +1,39 @@
 Herausgeber;Link;Kurzbeschreibung;Region;Filter
 LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Physisch-Geographisch
-LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Lithosphäre
-LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Pedosphäre
+LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Lithosphaere
+LGRB - Landesamt für Geologie, Rohstoffe und Bergbau;https://maps.lgrb-bw.de;Sammlung offizieller Karten zu physisch-geographischen Themen wie der Geologischen Karte 1:50.000 (GK50). WMS-Links können auch als WFS eingebaut und heruntergeladen werden.;Baden-Württemberg;Pedosphaere
 LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Physisch-Geographisch
 LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Umweltdaten
-LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Hydropshäre
-LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Biosphäre
-LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Atmosphäre
+LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Hydropshaere
+LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Biosphaere
+LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml;Verschiedenste offizielle Umweltdaten.;Baden-Württemberg;Atmosphaere
 LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Physisch-Geographisch
 LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Administrativ
-LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Digitales Höhenmodell
-LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Reliefssphäre
+LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Digitales Hoehenmodell
+LGL - Landesamt für Geoinformation und Landentwicklung;https://opengeodata.lgl-bw.de/#/;Administrative Daten wie Flurstücke und Geobasisdaten wie ein hochaufgelöstes digitales Geländemodell;Baden-Württemberg;Reliefssphaere
 LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://www.lubw.baden-wuerttemberg.de/natur-und-landschaft/landesweite-artenkartierung-lak;Landesweite Artenkartierung (Verbreitungsgebiete oder -häufigkeiten auf Blattschnitteinteilung ausgewählter Tierarten);Baden-Württemberg;Physisch-Geographisch
-LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://www.lubw.baden-wuerttemberg.de/natur-und-landschaft/landesweite-artenkartierung-lak;Landesweite Artenkartierung (Verbreitungsgebiete oder -häufigkeiten auf Blattschnitteinteilung ausgewählter Tierarten);Baden-Württemberg;Biosphäre
+LUBW - Landesanstalt für Umwelt Baden-Württemberg;https://www.lubw.baden-wuerttemberg.de/natur-und-landschaft/landesweite-artenkartierung-lak;Landesweite Artenkartierung (Verbreitungsgebiete oder -häufigkeiten auf Blattschnitteinteilung ausgewählter Tierarten);Baden-Württemberg;Biosphaere
 DWD - Deutscher Wetterdienst;https://opendata.dwd.de;Standarddatensätze zu Wetter, Witterung, Klima und Phänologie in Deutschland.;;Physisch-Geographisch
 DWD - Deutscher Wetterdienst;https://opendata.dwd.de;Standarddatensätze zu Wetter, Witterung, Klima und Phänologie in Deutschland.;;Klima
-DWD - Deutscher Wetterdienst;https://opendata.dwd.de;Standarddatensätze zu Wetter, Witterung, Klima und Phänologie in Deutschland.;;Atmosphäre
+DWD - Deutscher Wetterdienst;https://opendata.dwd.de;Standarddatensätze zu Wetter, Witterung, Klima und Phänologie in Deutschland.;;Atmosphaere
 FITKO – Föderale IT-Kooperation;https://www.govdata.de;;Deutschland;Administrativ
 Zensus 2011;https://atlas.zensus2011.de/;Demographische Daten auf 100x100m Gitter, Download als Tabelle unter „Open Data“ [+Join mit Gitter-Shapefile für Zuordnung;Deutschland;Administrativ
 Unfallatlas;https://unfallatlas.statistikportal.de/;Sammlung polizeilich erfasster Unfalldaten mit Lagebezug und umfangreichen Attributdaten;Deutschland;Administrativ
 Copernicus Land Monitoring Service;https://land.copernicus.eu/en/dataset-catalog;;Europa;Physisch-Geographisch
 Copernicus Land Monitoring Service;https://land.copernicus.eu/en/dataset-catalog;;Europa;Landbedeckung
 Copernicus Urban Atlas;https://land.copernicus.eu/en/products/urban-atlas;Sammlung verschiedenster Daten im städtischen Kontext (Gebäudehöhen, Straßenbäume, etc.);Europa;Humangeographisch
-Copernicus Urban Atlas;https://land.copernicus.eu/en/products/urban-atlas;Sammlung verschiedenster Daten im städtischen Kontext (Gebäudehöhen, Straßenbäume, etc.);Europa;Städte
+Copernicus Urban Atlas;https://land.copernicus.eu/en/products/urban-atlas;Sammlung verschiedenster Daten im städtischen Kontext (Gebäudehöhen, Straßenbäume, etc.);Europa;Staedte
 Copernicus Emergency Monitoring Service;https://emergency.copernicus.eu;Schadenskartierung  z.B. der Hochwasserausdehnung vergangener Katatstrophen;Europa;Physisch-Geographisch
 Copernicus Emergency Monitoring Service;https://emergency.copernicus.eu;Schadenskartierung  z.B. der Hochwasserausdehnung vergangener Katatstrophen;Europa;Katastrophen
-Copernicus Emergency Monitoring Service;https://emergency.copernicus.eu;Schadenskartierung  z.B. der Hochwasserausdehnung vergangener Katatstrophen;Europa;Hydrosphäre
+Copernicus Emergency Monitoring Service;https://emergency.copernicus.eu;Schadenskartierung  z.B. der Hochwasserausdehnung vergangener Katatstrophen;Europa;Hydrosphaere
 Copernicus Marine Service;https://marine.copernicus.eu/;;Europa;Physisch-Geographisch
-Copernicus Marine Service;https://marine.copernicus.eu/;;Europa;Hydrosphäre
+Copernicus Marine Service;https://marine.copernicus.eu/;;Europa;Hydrosphaere
 ESA S2GLC;https://s2glc.cbk.waw.pl/extension;Europaweit einheitliche Landnutzungskartierung [14 Klassen] aus Sentinel-Daten in einer Auflösung von 10 m für das Jahr 2017;;Physisch-Geographisch
 ESA S2GLC;https://s2glc.cbk.waw.pl/extension;Europaweit einheitliche Landnutzungskartierung [14 Klassen] aus Sentinel-Daten in einer Auflösung von 10 m für das Jahr 2017;;Landbedeckung
 Natural Earth Data;https://www.naturalearthdata.com/downloads/;Hauptsächlich topographische Informationen wie Landesgrenzen, Küsten, etc.;Global;Physisch-Geographisch
 Natural Earth Data;https://www.naturalearthdata.com/downloads/;Hauptsächlich topographische Informationen wie Landesgrenzen, Küsten, etc.;Global;Administrativ
 WIR - World Resources Institute (Global Forest Watch);https://data.globalforestwatch.org;Aktuelle Daten aus dem globalen Waldmonitoring;Global;Physisch-Geographisch
-WIR - World Resources Institute (Global Forest Watch);https://data.globalforestwatch.org;Aktuelle Daten aus dem globalen Waldmonitoring;Global;Biosphäre
+WIR - World Resources Institute (Global Forest Watch);https://data.globalforestwatch.org;Aktuelle Daten aus dem globalen Waldmonitoring;Global;Biosphaere
 ESA WorldCover;https://viewer.esa-worldcover.org/worldcover/;Globale Landnutzungsdaten aus Sentinel-2 Daten in 10m Auflösung [11 Klassen];Global;Physisch-Geographisch
 ESA WorldCover;https://viewer.esa-worldcover.org/worldcover/;Globale Landnutzungsdaten aus Sentinel-2 Daten in 10m Auflösung [11 Klassen];Global;Landbedeckung
 GeoFabrik (OpenStreetMap);http://download.geofabrik.de/index.html;Zugang zu den Open Street Map – Daten, gegliedert nach administrativen Grenzen, z.B. Regierungsbezirk Tübingen;Global;Humangeographisch
@@ -41,28 +41,28 @@ GeoFabrik (OpenStreetMap);http://download.geofabrik.de/index.html;Zugang zu den 
 Microsoft Building Footprints;https://github.com/microsoft/GlobalMLBuildingFootprints;;Global;Humangeographisch
 Google Open Buildings;https://sites.research.google/open-buildings/;;Afrika;Humangeographisch
 WorldClim;https://www.worldclim.org;Globale Klimadaten;Global;Physisch-Geographisch
-WorldClim;https://www.worldclim.org;Globale Klimadaten;Global;Atmosphäre
+WorldClim;https://www.worldclim.org;Globale Klimadaten;Global;Atmosphaere
 Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Physisch-Geographisch
 Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Klima
-Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Atmosphäre
-Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Kyrosphäre
-Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Hydrosphäre
+Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Atmosphaere
+Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Kyrosphaere
+Copernicus Climate Data Store;https://cds.climate.copernicus.eu/datasets;Unterschiedlichste temporale Datensätze zum globalen Klima. Von tagesgenauen Niederschlagswerten seit 1950, bis hin zur Entwicklung der Eisfläche an den Polen.;Global;Hydrosphaere
 ECMWF real-time forecast data;https://www.ecmwf.int/en/forecasts/datasets/open-data;Echtzeit-Vorhersagen für das globale Wettergeschehen.;Global;Physisch-Geographisch
 ECMWF real-time forecast data;https://www.ecmwf.int/en/forecasts/datasets/open-data;Echtzeit-Vorhersagen für das globale Wettergeschehen.;Global;Klima
-ECMWF real-time forecast data;https://www.ecmwf.int/en/forecasts/datasets/open-data;Echtzeit-Vorhersagen für das globale Wettergeschehen.;Global;Atmosphäre
+ECMWF real-time forecast data;https://www.ecmwf.int/en/forecasts/datasets/open-data;Echtzeit-Vorhersagen für das globale Wettergeschehen.;Global;Atmosphaere
 SoildGrids;https://soilgrids.org;Globale verfügbare Bodeninformationen in 250m räumlicher Auflösung.;Global;Physisch-Geographisch
-SoildGrids;https://soilgrids.org;Globale verfügbare Bodeninformationen in 250m räumlicher Auflösung.;Global;Pedosphäre
+SoildGrids;https://soilgrids.org;Globale verfügbare Bodeninformationen in 250m räumlicher Auflösung.;Global;Pedosphaere
 JAXA Global Rainfall;https://sharaku.eorc.jaxa.jp/GSMaP/;;Global;Physisch-Geographisch
-JAXA Global Rainfall;https://sharaku.eorc.jaxa.jp/GSMaP/;;Global;Atmosphäre
+JAXA Global Rainfall;https://sharaku.eorc.jaxa.jp/GSMaP/;;Global;Atmosphaere
 Global Forest Canopy Height;https://glad.umd.edu/dataset/gedi;Abschätzung der Kronenhöhe von Wäldern im globalen Maßstab;Global;Physisch-Geographisch
-Global Forest Canopy Height;https://glad.umd.edu/dataset/gedi;Abschätzung der Kronenhöhe von Wäldern im globalen Maßstab;Global;Biosphäre
+Global Forest Canopy Height;https://glad.umd.edu/dataset/gedi;Abschätzung der Kronenhöhe von Wäldern im globalen Maßstab;Global;Biosphaere
 Monthly cloud-free nighttime data;https://eogdata.mines.edu/products/vnl/;;Global;Fernerkundung
 GHSL - Global Human Settlement Layer;https://ghsl.jrc.ec.europa.eu/index.php;;Global;Humangeographisch
 WRI - World Resources Institute;https://datasets.wri.org;;Global;Physisch-Geographisch
 World Bank;https://datacatalog.worldbank.org/search;;Global;Humangeographisch
 WorldPop;https://www.worldpop.org/;;Global;Humangeographisch
 Global Observation and Biodiversity Information Portal;https://globil-panda.opendata.arcgis.com;;Global;Physisch-Geographisch
-Global Observation and Biodiversity Information Portal;https://globil-panda.opendata.arcgis.com;;Global;Biosphäre
+Global Observation and Biodiversity Information Portal;https://globil-panda.opendata.arcgis.com;;Global;Biosphaere
 United Nations Environment Program;https://wesr.unep.org/;;Global;Physisch-Geographisch
 FAO - Food and Agricultural Organization;https://data.apps.fao.org/map/catalog/srv/eng/catalog.search;;Global;Humangeographisch
 FAO - Food and Agricultural Organization;https://data.apps.fao.org/map/catalog/srv/eng/catalog.search;;Global;Physisch-Geographisch
@@ -95,21 +95,21 @@ EOC - Earth Obersavation Center (DLR);https://geoservice.dlr.de/web/;Verschieden
 EOC - Earth Obersavation Center (DLR);https://geoservice.dlr.de/web/;Verschiedenste Datensätze basierend auf Auswertungen von Fernerkundugsdaten durch das DLR;Global;Humangeographisch
 EOC - Earth Obersavation Center (DLR);https://geoservice.dlr.de/web/;Verschiedenste Datensätze basierend auf Auswertungen von Fernerkundugsdaten durch das DLR;Global;Fernerkundung
 Copernicus DEM25;https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1?tab=download;Digitales Geländemodell für Europa in 25m Auflösung;Europa;Physisch-Geographisch
-Copernicus DEM25;https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1?tab=download;Digitales Geländemodell für Europa in 25m Auflösung;Europa;Digitales Höhenmodell
+Copernicus DEM25;https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1?tab=download;Digitales Geländemodell für Europa in 25m Auflösung;Europa;Digitales Hoehenmodell
 Copernicus DEM30;https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3;Globales digitales Höhenmodell in 30m Auflösung;Global;Physisch-Geographisch
-Copernicus DEM30;https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3;Globales digitales Höhenmodell in 30m Auflösung;Global;Digitales Höhenmodell
+Copernicus DEM30;https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3;Globales digitales Höhenmodell in 30m Auflösung;Global;Digitales Hoehenmodell
 DGM200 Deutschland;http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div;Nationales Geländemodell für Deutschland in 200m Auflösung;Deutschland;Physisch-Geographisch
-DGM200 Deutschland;http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div;Nationales Geländemodell für Deutschland in 200m Auflösung;Deutschland;Digitales Höhenmodell
+DGM200 Deutschland;http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div;Nationales Geländemodell für Deutschland in 200m Auflösung;Deutschland;Digitales Hoehenmodell
 OpenTopography;https://portal.opentopography.org/datasets;Portal für die Suche von digitalen Geländemodellen unteschiedlicher Anbieter;Global;Physisch-Geographisch
-OpenTopography;https://portal.opentopography.org/datasets;Portal für die Suche von digitalen Geländemodellen unteschiedlicher Anbieter;Global;Digitales Höhenmodell
+OpenTopography;https://portal.opentopography.org/datasets;Portal für die Suche von digitalen Geländemodellen unteschiedlicher Anbieter;Global;Digitales Hoehenmodell
 USGS SRTM 90m Digital Elevation Database;http://srtm.csi.cgiar.org/;Globales digitales Höhenmodell in 90m Auflösung;Global;Physisch-Geographisch
-USGS SRTM 90m Digital Elevation Database;http://srtm.csi.cgiar.org/;Globales digitales Höhenmodell in 90m Auflösung;Global;Digitales Höhenmodell
+USGS SRTM 90m Digital Elevation Database;http://srtm.csi.cgiar.org/;Globales digitales Höhenmodell in 90m Auflösung;Global;Digitales Hoehenmodell
 USGS SRTM 30m;https://earthexplorer.usgs.gov/;Globales digitales Geländemodell in 30m Auflösung;Global;Physisch-Geographisch
-USGS SRTM 30m;https://earthexplorer.usgs.gov/;Globales digitales Geländemodell in 30m Auflösung;Global;Digitales Höhenmodell
+USGS SRTM 30m;https://earthexplorer.usgs.gov/;Globales digitales Geländemodell in 30m Auflösung;Global;Digitales Hoehenmodell
 JAXA Global ALOS 3D World;https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d_e.htm;;Global;Physisch-Geographisch
-JAXA Global ALOS 3D World;https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d_e.htm;;Global;Digitales Höhenmodell
+JAXA Global ALOS 3D World;https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d_e.htm;;Global;Digitales Hoehenmodell
 OpenDEM;https://opendem.info/index.html;;Global;Physisch-Geographisch
-OpenDEM;https://opendem.info/index.html;;Global;Digitales Höhenmodell
+OpenDEM;https://opendem.info/index.html;;Global;Digitales Hoehenmodell
 ESA STEP - Science Toolbox Exploitation Platform;https://step.esa.int/main/doc/tutorials/;Tutorials zur Verarbeitung von Sentinel-Daten im Open Source Programm der ESA „SNAP“;Global;Tutorials
 ESA STEP - Science Toolbox Exploitation Platform;https://step.esa.int/main/doc/tutorials/;Tutorials zur Verarbeitung von Sentinel-Daten im Open Source Programm der ESA „SNAP“;Global;Fernerkundung
 OpenGeoHUB - Summerschool;https://opengeohub.org/;Tutorials zu den Programmes GRASS GIS, R Studio, SAGA GIS und anderer Open Source Software;Global;Tutorials
@@ -155,7 +155,7 @@ Google Earth Engine;https://earthengine.google.com;Webgestütztes Fernerkundungs
 Agisoft Metashape;https://www.agisoft.com;Kommerzielle Software für die Prozessierung von photogrammetrischen Daten oder Drohnenaufnahmen.;;Software
 Agisoft Metashape;https://www.agisoft.com;Kommerzielle Software für die Prozessierung von photogrammetrischen Daten oder Drohnenaufnahmen.;;Fernerkundung
 FastFlood;https://fastflood.org;Frei verfügbare Anwendung für eine schnelle, aber akkurate Hochwassermodellierung mithilfe von globalen oder eigenen Datensätzen.;;Software
-FastFlood;https://fastflood.org;Frei verfügbare Anwendung für eine schnelle, aber akkurate Hochwassermodellierung mithilfe von globalen oder eigenen Datensätzen.;;Hydrosphäre
+FastFlood;https://fastflood.org;Frei verfügbare Anwendung für eine schnelle, aber akkurate Hochwassermodellierung mithilfe von globalen oder eigenen Datensätzen.;;Hydrosphaere
 Geodaten Universitätsstadt Tübingen;https://www.tuebingen.de/33688.html#/34674;Administrative Daten der Stadt Tübingen;Tübingen;Administrativ
 Geoportal Stadt Stuttgart;https://www.stuttgart.de/leben/bauen/geoportal/;Administrative, Statistische und Historische Daten der Stadt Stuttgart;Stuttgart;Humangeographisch
 Geoportal Stadt Stuttgart;https://www.stuttgart.de/leben/bauen/geoportal/;Administrative, Statistische und Historische Daten der Stadt Stuttgart;Stuttgart;Administrativ
@@ -167,7 +167,7 @@ CEMS - Copernicus Emergeny Management Service;https://emergency.copernicus.eu;Ka
 CEMS - Copernicus Emergeny Management Service;https://emergency.copernicus.eu;Katastrophenteam von Copernicus. Die Website gibt detaillierten Einblick in die Arbeit der Untersützung in Krisengebieten (z.B. Starkregen und Fluten in Südspanien EMSR773) und stellt darüber hinaus auch Daten der Kampagnen zu Verfügung.;Global;Katastrophen
 CEMS - Copernicus Emergeny Management Service;https://emergency.copernicus.eu;Katastrophenteam von Copernicus. Die Website gibt detaillierten Einblick in die Arbeit der Untersützung in Krisengebieten (z.B. Starkregen und Fluten in Südspanien EMSR773) und stellt darüber hinaus auch Daten der Kampagnen zu Verfügung.;Global;Informationsportal
 Global Biodiversity Information Facility (GBIF);https://www.gbif.org/;Umfangreiche biogeographische Datenbank, die vorkommen vieler Spezies bereithält;Global;Physisch-Geographisch
-Global Biodiversity Information Facility (GBIF);https://www.gbif.org/;Umfangreiche biogeographische Datenbank, die vorkommen vieler Spezies bereithält;Global;Biosphäre
+Global Biodiversity Information Facility (GBIF);https://www.gbif.org/;Umfangreiche biogeographische Datenbank, die vorkommen vieler Spezies bereithält;Global;Biosphaere
 Thünen Atlas;https://atlas.thuenen.de;Datenbank auf Grundlage verschiedester Projekte in den Themenbereichen Landwirtschaft, Forst, Meere. (Auch als WFS abrufbar);Europa;Physisch-Geographisch
-Thünen Atlas;https://atlas.thuenen.de;Datenbank auf Grundlage verschiedester Projekte in den Themenbereichen Landwirtschaft, Forst, Meere. (Auch als WFS abrufbar);Europa;Biosphäre
-Thünen Atlas;https://atlas.thuenen.de;Datenbank auf Grundlage verschiedester Projekte in den Themenbereichen Landwirtschaft, Forst, Meere. (Auch als WFS abrufbar);Europa;Hydrosphäre
+Thünen Atlas;https://atlas.thuenen.de;Datenbank auf Grundlage verschiedester Projekte in den Themenbereichen Landwirtschaft, Forst, Meere. (Auch als WFS abrufbar);Europa;Biosphaere
+Thünen Atlas;https://atlas.thuenen.de;Datenbank auf Grundlage verschiedester Projekte in den Themenbereichen Landwirtschaft, Forst, Meere. (Auch als WFS abrufbar);Europa;Hydrosphaere
