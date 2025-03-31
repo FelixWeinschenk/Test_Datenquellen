@@ -11,23 +11,28 @@
             margin: 0;
             padding: 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
         }
         .container {
             display: grid;
-            grid-template-columns: 2fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             gap: 20px;
             width: 100%;
             max-width: 1200px;
         }
-        .left-column {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
-        .right-column {
+        .column {
             display: flex;
             flex-direction: column;
+            gap: 10px;
+        }
+        .grid-2-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 10px;
         }
         .tile {
@@ -39,7 +44,7 @@
             font-size: 1.2em;
             padding: 15px;
             cursor: pointer;
-            border-radius: 10px;
+            border: 2px solid #fff;
             text-align: center;
             transition: 0.3s;
         }
@@ -47,7 +52,6 @@
             opacity: 0.8;
         }
         .main-tile {
-            grid-column: span 2;
             font-size: 1.5em;
             font-weight: bold;
             padding: 20px;
@@ -60,27 +64,30 @@
     </style>
 </head>
 <body>
+    <h1>Übersicht und Orientierungshilfe für Datenquellen in der Geoinformatik</h1>
     <div class="container">
-        <!-- Linke Hauptspalte -->
-        <div class="left-column">
+        <!-- Linke Spalte: Physisch-Geographisch -->
+        <div class="column">
             <div class="tile main-tile blue" onclick="loadData('Physisch-Geographisch')">Physisch-Geographisch</div>
+            <div class="grid-2-columns">
+                <div class="tile light-blue" onclick="loadData('Lithosphaere')">Lithosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Pedosphaere')">Pedosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Hydrosphaere')">Hydrosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Biosphaere')">Biosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Atmosphaere')">Atmosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Reliefssphaere')">Reliefsphäre</div>
+                <div class="tile light-blue" onclick="loadData('Kyrosphaere')">Kryosphäre</div>
+                <div class="tile light-blue" onclick="loadData('Umweltdaten')">Umweltdaten</div>
+                <div class="tile light-blue" onclick="loadData('Digitales Hoehenmodell')">Digitales Höhenmodell</div>
+                <div class="tile light-blue" onclick="loadData('Klima')">Klima</div>
+                <div class="tile light-blue" onclick="loadData('Landbedeckung')">Landbedeckung</div>
+                <div class="tile light-blue" onclick="loadData('Fernerkundung')">Fernerkundung</div>
+            </div>
+        </div>
+
+        <!-- Mittlere Spalte: Humangeographisch -->
+        <div class="column">
             <div class="tile main-tile red" onclick="loadData('Humangeographisch')">Humangeographisch</div>
-
-            <!-- Physisch-Geographische Unterkategorien (2-Spalten-Layout) -->
-            <div class="tile light-blue" onclick="loadData('Lithosphaere')">Lithosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Pedosphaere')">Pedosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Hydrosphaere')">Hydrosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Biosphaere')">Biosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Atmosphaere')">Atmosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Reliefssphaere')">Reliefsphäre</div>
-            <div class="tile light-blue" onclick="loadData('Kyrosphaere')">Kryosphäre</div>
-            <div class="tile light-blue" onclick="loadData('Umweltdaten')">Umweltdaten</div>
-            <div class="tile light-blue" onclick="loadData('Digitales Hoehenmodell')">Digitales Höhenmodell</div>
-            <div class="tile light-blue" onclick="loadData('Klima')">Klima</div>
-            <div class="tile light-blue" onclick="loadData('Landbedeckung')">Landbedeckung</div>
-            <div class="tile light-blue" onclick="loadData('Fernerkundung')">Fernerkundung</div>
-
-            <!-- Humangeographische Unterkategorien (1-Spalte-Layout) -->
             <div class="tile light-red" onclick="loadData('Administrativ')">Administrativ</div>
             <div class="tile light-red" onclick="loadData('Staedte')">Städte</div>
             <div class="tile light-red" onclick="loadData('Katastrophen')">Katastrophen</div>
@@ -88,8 +95,8 @@
             <div class="tile light-red" onclick="loadData('Historisch')">Historisch</div>
         </div>
 
-        <!-- Rechte Spalte (Sonstige Themen) -->
-        <div class="right-column">
+        <!-- Rechte Spalte: Sonstige Themen -->
+        <div class="column">
             <div class="tile gray" onclick="loadData('Artikel')">Artikel</div>
             <div class="tile gray" onclick="loadData('Tutorials')">Tutorials</div>
             <div class="tile gray" onclick="loadData('GIS')">GIS</div>
