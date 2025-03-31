@@ -45,16 +45,16 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const params = new URLSearchParams(window.location.search);
-            const sphere = params.get("sphere");
-            document.getElementById("title").innerText = sphere;
+            const Filter = params.get("Filter");
+            document.getElementById("title").innerText = Filter;
 
-            Papa.parse("data8.csv", {
+            Papa.parse("data_ready.csv", {
                 download: true,
                 header: true,
                 delimiter: ";",
                 complete: function (result) {
                     console.log("CSV-Daten:", result.data);
-                    const filteredData = result.data.filter(row => row.sphere?.trim() === sphere);
+                    const filteredData = result.data.filter(row => row.Filter?.trim() === Filter);
                     const tableBody = document.getElementById("data-table");
                     
                     filteredData.forEach(row => {
