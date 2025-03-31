@@ -13,12 +13,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            min-height: 100vh; /* Stellt sicher, dass die Seite mindestens die Bildschirmhöhe einnimmt */
             background-image: url("IMG/Hintergrund.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            position: relative; /* Wichtig für das Positionieren der Fußzeile */
         }
         h1 {
             text-align: center;
@@ -37,9 +35,6 @@
             gap: 20px;
             width: 100%;
             max-width: 3000px;
-        }
-        .container {
-            flex: 1; /* Dadurch bleibt der Container flexibel und die Fußzeile rutscht nach unten */
         }
         .column {
             display: flex;
@@ -72,16 +67,15 @@
             font-weight: bold;
             padding: 20px;
         }
-        .footer { 
-            width: 100%;
-            text-align: left;
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
             font-size: 14px;
             color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 5px 10px;
+            border-radius: 0; 
         }
         .blue { background-color: #357abd; } 
         .light-blue { background-color: #5faee3; } 
@@ -131,6 +125,11 @@
             <div class="tile gray" onclick="loadData('Visualisierung')">Visualisierung</div>
             <div class="tile gray" onclick="loadData('Software')">Software</div>
         </div>
+
+        <!-- Fusszeile -->
+        <div class="footer">
+            Eine Zusammentragung der Arbeitsgruppe Physische Geographie und GIS (Prof. Hochschild) des Geographischen Instituts der Eberhard Karls Universität Tübingen, Felix Weinschenk
+        </div>
     </div>
 
     <script>
@@ -138,11 +137,5 @@
             window.location.href = `details.html?Filter=${category}`;
         }
     </script>
-
-    <!-- Fusszeile -->
-    <div class="footer">
-        Eine Zusammentragung der Arbeitsgruppe Physische Geographie und GIS (Prof. Hochschild) des Geographischen Instituts der Eberhard Karls Universität Tübingen, Felix Weinschenk
-    </div>
-
 </body>
 </html>
