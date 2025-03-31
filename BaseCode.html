@@ -6,19 +6,29 @@
     <title>Geosphären Übersicht</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
         }
-        .grid {
+        .container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .left-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 10px;
-            width: 80vw;
-            max-width: 800px;
+        }
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
         .tile {
             background-color: #4a90e2;
@@ -26,28 +36,69 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5em;
-            padding: 20px;
+            font-size: 1.2em;
+            padding: 15px;
             cursor: pointer;
             border-radius: 10px;
             text-align: center;
+            transition: 0.3s;
         }
         .tile:hover {
-            background-color: #357abd;
+            opacity: 0.8;
         }
+        .main-tile {
+            grid-column: span 2;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 20px;
+        }
+        .blue { background-color: #357abd; }  /* Dunkelblau */
+        .light-blue { background-color: #5faee3; } /* Hellblau */
+        .red { background-color: #b22222; } /* Dunkelrot */
+        .light-red { background-color: #e57373; } /* Hellrot */
+        .gray { background-color: #888; } /* Grau */
     </style>
 </head>
 <body>
-    <div class="grid">
-        <div class="tile" onclick="loadData('Biosphaere')">Biosphäre</div>
-        <div class="tile" onclick="loadData('Reliefsphaere')">Reliefsphäre</div>
-        <div class="tile" onclick="loadData('Hydrosphaere')">Hydrosphäre</div>
-        <div class="tile" onclick="loadData('Atmosphaere')">Atmosphäre</div>
-        <div class="tile" onclick="loadData('Lithosphaere')">Lithosphäre</div>
-        <div class="tile" onclick="loadData('Kryosphaere')">Kryosphäre</div>
-        <div class="tile" onclick="loadData('Pedosphaere')">Pedosphäre</div>
+    <div class="container">
+        <!-- Linke Hauptspalte -->
+        <div class="left-column">
+            <div class="tile main-tile blue" onclick="loadData('Physisch-Geographisch')">Physisch-Geographisch</div>
+            <div class="tile main-tile red" onclick="loadData('Humangeographisch')">Humangeographisch</div>
+
+            <!-- Physisch-Geographische Unterkategorien (2-Spalten-Layout) -->
+            <div class="tile light-blue" onclick="loadData('Lithosphaere')">Lithosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Pedosphaere')">Pedosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Hydrosphaere')">Hydrosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Biosphaere')">Biosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Atmosphaere')">Atmosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Reliefssphaere')">Reliefsphäre</div>
+            <div class="tile light-blue" onclick="loadData('Kyrosphaere')">Kryosphäre</div>
+            <div class="tile light-blue" onclick="loadData('Umweltdaten')">Umweltdaten</div>
+            <div class="tile light-blue" onclick="loadData('Digitales Hoehenmodell')">Digitales Höhenmodell</div>
+            <div class="tile light-blue" onclick="loadData('Klima')">Klima</div>
+            <div class="tile light-blue" onclick="loadData('Landbedeckung')">Landbedeckung</div>
+            <div class="tile light-blue" onclick="loadData('Fernerkundung')">Fernerkundung</div>
+
+            <!-- Humangeographische Unterkategorien (1-Spalte-Layout) -->
+            <div class="tile light-red" onclick="loadData('Administrativ')">Administrativ</div>
+            <div class="tile light-red" onclick="loadData('Staedte')">Städte</div>
+            <div class="tile light-red" onclick="loadData('Katastrophen')">Katastrophen</div>
+            <div class="tile light-red" onclick="loadData('Landwirtschaft')">Landwirtschaft</div>
+            <div class="tile light-red" onclick="loadData('Historisch')">Historisch</div>
+        </div>
+
+        <!-- Rechte Spalte (Sonstige Themen) -->
+        <div class="right-column">
+            <div class="tile gray" onclick="loadData('Artikel')">Artikel</div>
+            <div class="tile gray" onclick="loadData('Tutorials')">Tutorials</div>
+            <div class="tile gray" onclick="loadData('GIS')">GIS</div>
+            <div class="tile gray" onclick="loadData('Informationsportal')">Informationsportal</div>
+            <div class="tile gray" onclick="loadData('Visualisierung')">Visualisierung</div>
+            <div class="tile gray" onclick="loadData('Software')">Software</div>
+        </div>
     </div>
-    
+
     <script>
         function loadData(category) {
             window.location.href = `details.html?Filter=${category}`;
